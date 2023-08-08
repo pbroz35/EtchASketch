@@ -19,7 +19,7 @@ for(let i=0; i<=amount; i++){
     }
 }
 
-populateBoard(16);
+populateBoard(32);
 
 function changeSize(input){
     if(input>=2 && input<=100){

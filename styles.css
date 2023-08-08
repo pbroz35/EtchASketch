@@ -22,9 +22,9 @@ body{
 
 
 .board{
-    width:500px;
-    height: 500px;
+    width:700px;
+    height: 700px;
     display: grid;
     border: 10px solid darkblue;
-    border-radius: 5px;
+    border-radius: 15px;
 }
