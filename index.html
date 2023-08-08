@@ -9,14 +9,14 @@
 </head>
 <body>
     <div class="flex-container">
-        <h1 style="display: flex; justify-content: center;">Etch-A-Sketch</h1>
+        <h1 class='title' >Etch-A-Sketch</h1>
         <div class="board"></div>
         <div class="buttons">   
             <button onclick="changeColor('black')">Black</button>    
             <button onclick="changeColor('white')">White</button>
             <button onclick="changeColor('Gray')">Grey</button>      
             <button onclick="changeColor('random')">Random</button>    
-            <button class="resetButton">Reset</button> 
+            <button class="resetButton" onclick="resetBoard()">Reset</button> 
         </div> 
         <div>      
             <input type="text" placeholder="Size of Board" value='16' onchange="changeSize(this.value)">
